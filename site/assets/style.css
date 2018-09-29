@@ -1,0 +1,221 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.navigation ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.navigation li {
+  display: inline;
+  font-family: Calibri;
+  font-size: 8;
+}
+
+.navigation li a {
+  color: white;
+}
+
+header {
+  background-image: url(../images/wiewiorka.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  border: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: Arial;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.display_block {
+  color: #ff9933;
+  display: block;
+}
+
+h5 {
+  text-align: center;
+  color:  #666666;
+  font-family: Calibri;
+  padding-bottom: 70px;
+}
+
+.button {
+  background-color: #ffcc00;
+  border: none;
+   color: black;
+   padding: 12px 25px;
+   margin: 0 auto;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10px;
+   border-radius: 15px;
+   font-family: Calibri;
+}
+
+h4 {
+  color: #bfbfbf;
+  font-family: Calibri;
+  padding-top: 80px;
+}
+
+.grid {
+list-style-type: none;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-gap: 15px;
+display: inline-grid;
+margin-top: -93px;
+}
+
+.align_center {
+  text-align: center;
+}
+
+h3 {
+  padding-top: 40px;
+  color: #666666;
+  font-family: Arial;
+}
+
+.grid {
+  list-style-type: none;
+  background-color: #595959;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8px;
+  font-family: Calibri;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.grid_discover a {
+  color: white;
+}
+
+.gap {
+  margin: 100px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 40% 40%;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.main_grid {
+  background-color: white;
+  border-radius: 5%;
+}
+
+.image {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.desc1 {
+  font-family: Arial;
+  color: #404040;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.desc2 {
+  color: #999999;
+  font-size: 10px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.offer_btn {
+  font-family: Arial;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #ffcc66;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 0%;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+
+}
+
+.offer_btn a {
+  color: #995c00;
+}
+
+.offer_btn:hover {
+  background-color: #ffbb33;
+  font-family: Arial;
+}
+
+.span {
+  margin: 40px;
+}
+
+
+/* MOJ KOD */
+
+
+.section__discover {
+  margin-top: -100px;
+}
+.grid__discover {
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+/* nastepny moj kod */
+
+
+.section__search_href {
+  text-decoration: none;
+  color: black;
+}
+
+.section__search_btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: #b3b3b3;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.section__search_btn:hover {
+  background-color: #999999;
+  font-family: Calibri;
+}
