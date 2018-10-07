@@ -5,12 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Fall in love with Poland!</title>
-  <style>a {text-decoration: none;}</style>
+  <link rel="stylesheet" type="text/css" href="./assets/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <!-- nie wkladaj styli w html tylko css -->
+  
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <body>
-  <link rel="stylesheet" type="text/css" href="./assets/normalize.css">
-  <link rel="stylesheet" type="text/css" href="./assets/style.css">
   <header>
     <nav class="navigation">
       <ul>
@@ -25,7 +32,9 @@
       <h1>Fall in love<span class="display_block">
           with Poland!</span></h1>
       <h5>Best way to find your perfect place in Poland</h5>
-      <p><a href="#" class="button">Search for your place</a></p>
+      <!-- zmien klase z .button -->
+      <p><a href="#" class="searchplace_btn">Search for your place</a></p>  
+
       <h4>Popular places to discover</h4>
     </div>
   </header>
@@ -38,16 +47,17 @@
       <a target="_blank" href="#"><img src="./images/sopot.jpeg"></a>
       <img src="./images/las.jpeg">
     </div>
-</section>
-<section class="align_center">
+  </section>
+  <section class="align_center">
     <div>
       <h3>Where do you want to go?</h3>
-      <a target="_blank" class="section__search_href" href="http://google.com">Search for a place</a>
+      <input type="text" id="fname" name="fname" placeholder="search">
+
       <div>
         <button class="section__search_btn">Journey</button>
         <button class="section__search_btn">Travelers</button>
         <button class="section__search_btn">Guide</button>
-<span class="span"></span>
+        <span class="span"></span>
         <button class="section__search_btn">Mazury</button>
         <button class="section__search_btn">Cracow</button>
         <button class="section__search_btn">Zakopane</button>
@@ -92,21 +102,28 @@
         <p class="offer_btn"><a href="#">View offers</a></p>
       </div>
     </main>
-    </section>
-
-    <section>
-    <div class="container">
-      <h5 id="header">Explore the city</h5>
-      <h5 id="city_name">Warsaw</h5>
-      <p id="floated">Lorem ipsum dolor sit amet, vel accumsan suscipit an, dicunt legendos cu mei. Lorem dolorum et pri, probo
-        cetero vituperatoribus est et, ius ex vidit oportere consequat. Ut eam ullum imperdiet sententiae. Eu vim vide
-        zril. Ut vel soleat putent elaboraret, invenire moderatius pro cu.
-        Mea atqui invidunt philosophia no. Pro tale sanctus ut, ea mundi tempor mea. Ea veri quidam ancillae vis, mei
-        in postea feugait docendi. Ad mea elitr tempor. Ut labitur electram duo.
-        Illud audiam epicurei nam no, eu tota moderatius eos, id nam tempor feugiat inimicus.</p>
-      <img src="./images/warsaw.jpeg" style="border: 10px solid #ffd633"/>
-      </div>
   </section>
 
-
+<!-- zmien header id na header div tylko  -->
+<div class="explore_city_header"
+  <h5>Explore the city</h5>
+  </div>
+  <div class="warsaw__grid">
+    <div>
+    <h2>Warsaw</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est minus repudiandae rerum error totam sapiente blanditiis ut ratione cum architecto dolorum quas, aut deserunt id ipsam soluta consequuntur? Aliquam numquam dolores obcaecati aliquid. Quam, aperiam.</p>
+    <p>Cumque, quas tenetur commodi maxime officiis rerum sit eum illum cum voluptas natus ipsum doloribus atque vitae sequi totam a. Officiis quo iste pariatur alias voluptas deleniti ullam optio qui quae, voluptates eum molestias atque?</p></p>
+  </div>
+  <div>
+    <p><img src="./images/warsaw.jpeg" /></p>
+  </div>
+</div>
 </body>
+
+<footer>
+  <div>
+  <h1>Enjoy your journey!</h1>
+  <button>Sign up</button>
+  <p>You can also sign up to our <a href="#">newsletter</a></p>
+  </div>
+</footer>

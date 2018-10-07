@@ -46,7 +46,7 @@ h5 {
   padding-bottom: 70px;
 }
 
-.button {
+.searchplace_btn {
   background-color: #ffcc00;
   border: none;
    color: black;
@@ -125,7 +125,6 @@ main {
 
 .image {
   width: 100%;
-  height: 100px;
   border-radius: 10px;
 }
 
@@ -156,7 +155,6 @@ main {
   padding-right: 10px;
   margin-left: 15%;
   margin-right: 15%;
-  margin-bottom: 0%;
   border-radius: 15px;
   text-align: center;
   display: block;
@@ -176,39 +174,51 @@ main {
   margin: 40px;
 }
 
-#header {
-  font-family: Calibri;
-  font-size: 24px;
-  color: #737373;
+.explore_city_header {
   text-align: center;
-  padding-bottom: 15px;
+  font-family: Arial;
+  font-size: 18px;
+  color: #808080;
+  margin-top: 70px;
 }
 
-.container {
-  margin-left: 20%;
-  margin-right: 20%;
-  display: inline-block;
+.warsaw__grid {
+  grid-template-columns: 50% 50%;
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-#city_name {
-  font-family; Calibri;
-  font-size: 24px;
-  color: #ffdb4d;
-  text-align: left;
-  padding-top: -20px;
-  padding-bottom: -20px;
-}
-
-#floated {
-  float: left;
-  width: 50%;
-  font-family: calibri;
+.warsaw__grid p {
+  font-family: Calibri;
   font-size: 15px;
   color: #a6a6a6;
-  padding-top: 75px;
-  padding-right: 30px;
 }
 
+.warsaw__grid img {
+  float: right;
+  border: 10px solid;
+  border-color: #ffbb33;
+}
+
+h2 {
+  font-family: Calibri;
+  font-size: 28px;
+  color: #ffd11a;
+}
+
+footer {
+  background-image: url(../Poland1/images/pszenica.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  border: 0;
+  width: 100%;
+}
 
 /* MOJ KOD */
 
@@ -246,9 +256,19 @@ main {
   margin-top: 20px;
   transition: 1s;
   cursor: pointer;
+  font-family: Calibri;
 }
 
 .section__search_btn:hover {
   background-color: #999999;
   font-family: Calibri;
+}
+
+#fname {
+  background: #fff;
+  border-radius: 40px;
+  padding-left: 15px;
+  border: none;
+  color: #b3b3b3;
+  font-size: 14px;
 }
